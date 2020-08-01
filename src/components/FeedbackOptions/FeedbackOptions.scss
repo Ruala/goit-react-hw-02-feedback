@@ -1,0 +1,19 @@
+.FeedbackOptions__button {
+  padding: 0 10px;
+  line-height: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  -webkit-appearance: none;
+  cursor: pointer;
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  &:hover {
+    border-color: darken(#ddd, 10%);
+  }
+}
